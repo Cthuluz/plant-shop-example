@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -51,17 +52,62 @@ main {
     flex: 1;
 }
 
+/* Section One */
+
 .one {
     background-color: rgb(3, 61, 3);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px 50px 50px;
+    gap: 50px;
+    justify-content: space-around;
 }
+
+.title-section, .one img {
+    flex: 1;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.one img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.title-section p {
+    color: rgb(189, 209, 189);
+}
+
+button {
+    width: 100px;
+    background-color: rgb(0, 188, 0);
+    color: white;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* Section Two */
 
 .two {
 
 }
 
+/* Section Three */
+
 .three {
     background-color: rgb(3, 61, 3, 0.1);
 }
+
+/* Section Four */
 
 .four {
 
