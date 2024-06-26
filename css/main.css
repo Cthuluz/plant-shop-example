@@ -7,16 +7,40 @@
 body {
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
     height: 1200px;
 }
+
+/* Header and Footer */
 
 header, footer {
     height: 80px;
     background-color: rgb(3, 61, 3);
+    display: flex;
 }
 
-.main {
+header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+header img {
+    height: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(189, 209, 189);
+}
+
+/* Main section */
+
+main {
     flex: 1;
 
     display: flex;
@@ -42,3 +66,4 @@ header, footer {
 .four {
 
 }
+
