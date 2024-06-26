@@ -14,7 +14,7 @@ body {
 /* Header and Footer */
 
 header, footer {
-    height: 80px;
+    min-height: 80px;
     background-color: rgb(3, 61, 3);
     display: flex;
 }
@@ -22,11 +22,14 @@ header, footer {
 header {
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    gap: 10px;
 }
 
 .header-links {
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 30px;
 }
 
@@ -65,21 +68,21 @@ main {
     justify-content: space-around;
 }
 
-.title-section, .one img {
-    flex: 1;
-}
-
 .title-section {
+    flex: auto;
+
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 500px;
-    min-width: 200px;
+    max-width: 550px;
 }
 
 .one img {
+    flex: auto;
     height: 400px;
+    width: 500px;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .title-section p {
@@ -114,7 +117,6 @@ button {
     height: 100px;
     width: 100px;
     object-fit: cover;
-    border: 3px solid rgb(0, 188, 0);
     border-radius: 8px;
     margin-bottom: 5px;
 }
