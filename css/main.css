@@ -133,6 +133,25 @@ button {
 
 .three {
     background-color: rgb(3, 61, 3, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote {
+    max-width: 400px;
+    margin: 50px;
+}
+
+.three p {
+    font-style: italic;
+    color: rgb(139, 152, 139);
+    margin-bottom: 10px;
+}
+
+.three h5 {
+    font-size: 12px;
+    text-align: right;
 }
 
 /* Section Four */
