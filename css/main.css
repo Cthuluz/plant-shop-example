@@ -5,6 +5,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+:root {
+    --dark-green: rgb(3, 61, 3);
+    --light-green: rgb(189, 209, 189);
+    --bright-green: rgb(0, 188, 0);
+    --grey-green: rgb(139, 152, 139);
+    --transparent-green: rgb(3, 61, 3, 0.1);
+    --white-green: rgb(207, 230, 207);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,7 +24,7 @@ body {
 
 header, footer {
     min-height: 80px;
-    background-color: rgb(3, 61, 3);
+    background-color: var(--dark-green);
     display: flex;
 }
 
@@ -39,7 +48,7 @@ header img {
 
 header a {
     text-decoration: none;
-    color: rgb(189, 209, 189);
+    color: var(--light-green);
 }
 
 /* Main section */
@@ -58,7 +67,7 @@ main {
 /* Section One */
 
 .one {
-    background-color: rgb(3, 61, 3);
+    background-color: var(--dark-green);
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -86,12 +95,12 @@ main {
 }
 
 .title-section p {
-    color: rgb(189, 209, 189);
+    color: var(--light-green);
 }
 
 button {
     width: 100px;
-    background-color: rgb(0, 188, 0);
+    background-color: var(--bright-green);
     color: white;
     height: 30px;
     border-radius: 8px;
@@ -123,7 +132,7 @@ button {
 
 .plant-selection p {
     font-size: 10px;
-    color: rgb(139, 152, 139);
+    color: var(--grey-green);
     width: 100px;
 }
 
@@ -134,7 +143,7 @@ button {
 /* Section Three */
 
 .three {
-    background-color: rgb(3, 61, 3, 0.1);
+    background-color: var(--transparent-green);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,7 +156,7 @@ button {
 
 .three p {
     font-style: italic;
-    color: rgb(139, 152, 139);
+    color: var(--grey-green);
     margin-bottom: 10px;
 }
 
@@ -163,7 +172,7 @@ button {
 }
 
 .buy-section {
-    background-color: rgb(0, 188, 0);
+    background-color: var(--bright-green);
     color: white;
     align-items: center;
     justify-content: space-around;
@@ -179,7 +188,7 @@ button {
 
 .buy-section p {
     font-size: 12px;
-    color: rgb(207, 230, 207);
+    color: var(--white-green);
 }
 
 .buy-section button {
