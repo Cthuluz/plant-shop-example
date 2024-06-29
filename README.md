@@ -1,5 +1,9 @@
 # plant-shop-example
 
+Website example of plant shop, showing selection of succulents, flowers, trees and fronds. 
+
+View here: https://cthuluz.github.io/plant-shop-example/
+
 Image credit:
 
 Photo by <a href="https://unsplash.com/@renran?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ren Ran</a> on <a href="https://unsplash.com/photos/green-and-white-leafed-plants-bBiuSdck8tU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
